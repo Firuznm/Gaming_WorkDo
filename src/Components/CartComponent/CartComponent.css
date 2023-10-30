@@ -1,8 +1,31 @@
+.bs-week-slider {
+  /* .swiper-slide {
+  	width: 260px
+  } */
+}
+.bs-week-slider .swiper-nav-button-next, .bs-week-slider .swiper-nav-button-prev {
+  position: absolute;
+  top: var(--swiper-navigation-top-offset, 50%);
+  margin-top: calc(0px - var(--swiper-navigation-size) / 2);
+  background-color: red;
+  z-index: 99;
+}
+.bs-week-slider .swiper-nav-button-next:hover {
+  background-color: green;
+}
+.bs-week-slider .swiper-nav-button-prev {
+  right: var(--swiper-navigation-sides-offset, 10px);
+  left: auto;
+}
+.bs-week-slider .swiper-nav-button-next {
+  left: var(--swiper-navigation-sides-offset, 10px);
+  right: auto;
+}
+
 .pr-cart {
   display: inline-block;
   position: relative;
   padding: 1rem;
-  width: 260px;
   margin: 0 auto;
   height: 450px;
   border: 1px solid #0098ff;
