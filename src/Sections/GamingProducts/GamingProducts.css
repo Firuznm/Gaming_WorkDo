@@ -1,0 +1,52 @@
+#GamingProducts .container .GamingProducts-head {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+#GamingProducts .container .GamingProducts-head .gamingPro-title {
+  font-size: 2rem;
+  font-weight: 900;
+}
+#GamingProducts .container .GamingProducts-head .gamingPro-info {
+  width: 40%;
+  color: #838383;
+}
+#GamingProducts .container .GamingProducts-head .game-btn {
+  text-align: end;
+}
+#GamingProducts .container .gamingPro-slider {
+  width: 102%;
+  margin: auto;
+}
+#GamingProducts .container .gamingPro-slider .slick-arrow {
+  background-color: #0098ff;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  z-index: 5;
+}
+#GamingProducts .container .gamingPro-slider .slick-prev {
+  left: -15px;
+}
+#GamingProducts .container .gamingPro-slider .slick-next {
+  right: 3px;
+}
+
+@media only screen and (max-width: 950px) {
+  #GamingProducts .container .GamingProducts-head {
+    display: flex;
+    flex-direction: column;
+    justify-content: inherit;
+  }
+  #GamingProducts .container .GamingProducts-head .gamingPro-title {
+    font-size: 2rem;
+    font-weight: 900;
+    margin-bottom: 1rem;
+  }
+  #GamingProducts .container .GamingProducts-head .gamingPro-info {
+    display: none;
+  }
+  #GamingProducts .container .GamingProducts-head .game-btn {
+    text-align: start;
+  }
+}/*# sourceMappingURL=GamingProducts.css.map */

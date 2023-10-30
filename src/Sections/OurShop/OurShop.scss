@@ -1,0 +1,40 @@
+#ourShip-section{
+	.container{
+		h4{font-size: 2.5rem;}
+		p{
+			color: #838383;
+			margin: 1rem 0 3rem;
+		}
+		.ourShopCarts{
+			display: grid;
+			grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+		    gap: 2rem;
+			.our-shop-cart{
+			   background:linear-gradient(148deg,rgba(1,152,255,.18) 0%,rgba(0,0,0,0) 100%);
+               border: 1px solid #7b35c8 ;
+			   padding: 1rem 2rem 1rem 1rem;
+			   border-top-right-radius: 14px;
+			   border-bottom-left-radius: 14px;
+			   .our-number{
+				background: linear-gradient(93.25deg,#0098ff 4.45%,#7b35c8 93.88%);
+				-webkit-background-clip: text;
+				-webkit-text-fill-color: transparent;  
+				font-size: 2rem;
+				font-weight: 500;
+		         	}
+					.our-shop-header{
+						font-size: 1.7rem;
+						font-weight: 500;
+						color: black;
+						margin: .7rem 0;
+					}
+					.our-description{
+						color: #838383;
+						font-weight: 300;
+						margin-bottom: 1rem;
+					}
+			}
+		}
+	}
+}
+

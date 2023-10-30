@@ -1,0 +1,123 @@
+#footer-section {
+  color: white;
+  background: rgb(0, 0, 0);
+}
+#footer-section .container .right-img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+#footer-section .container .left-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+}
+#footer-section .container .footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 0;
+}
+#footer-section .container .footer ul li {
+  margin-bottom: 1rem;
+}
+#footer-section .container .footer ul li a {
+  color: #fff;
+  transition: 0.5s;
+}
+#footer-section .container .footer ul li:hover a {
+  color: #5b5858;
+}
+#footer-section .container .footer .gaming,
+#footer-section .container .footer .navigation,
+#footer-section .container .footer .about,
+#footer-section .container .footer .share {
+  display: block;
+  padding-bottom: 2rem;
+  font-weight: 600;
+}
+#footer-section .container .footer .ftr-left {
+  width: 32%;
+}
+#footer-section .container .footer .ftr-left .gaming {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #fff;
+  position: relative;
+}
+#footer-section .container .footer .ftr-left .gaming .point {
+  font-size: 15px;
+  color: blueviolet;
+  top: 24px;
+  position: absolute;
+}
+#footer-section .container .footer .ftr-left .ftr-description-header {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 2rem;
+}
+#footer-section .container .footer .ftr-left .ftr-description-header b {
+  background: linear-gradient(93.25deg, #0098ff 4.45%, #7b35c8 93.88%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#footer-section .container .footer .ftr-left .ftr-description {
+  margin: 0.5rem 0 4rem;
+}
+#footer-section .container .footer .ftr-left .site-date {
+  color: white;
+}
+#footer-section .container .footer .ftr-social .youtube,
+#footer-section .container .footer .ftr-social .mesanger,
+#footer-section .container .footer .ftr-social .instagram,
+#footer-section .container .footer .ftr-social .twitter {
+  padding: 5px 5px 3px 5px;
+  background: white;
+  border-radius: 5px;
+  margin-left: 12px;
+  transition: 0.5s;
+}
+#footer-section .container .footer .ftr-social .youtube:hover,
+#footer-section .container .footer .ftr-social .mesanger:hover,
+#footer-section .container .footer .ftr-social .instagram:hover,
+#footer-section .container .footer .ftr-social .twitter:hover {
+  background: linear-gradient(93.25deg, #0098ff 4.45%, #7b35c8 93.88%);
+}
+#footer-section .container .footer .ftr-social .social-icon {
+  fill: black;
+}
+
+@media only screen and (max-width: 850px) {
+  #footer-section .container .footer {
+    flex-direction: column;
+    justify-content: inherit;
+  }
+  #footer-section .container .footer ul li {
+    margin-bottom: 4px;
+  }
+  #footer-section .container .footer .gaming,
+  #footer-section .container .footer .navigation,
+  #footer-section .container .footer .about,
+  #footer-section .container .footer .share {
+    margin: 1rem 0;
+    padding-bottom: 0;
+  }
+  #footer-section .container .footer .ftr-left {
+    width: 100%;
+  }
+  #footer-section .container .footer .ftr-left .ftr-description {
+    margin: 1rem 0 1rem;
+  }
+  #footer-section .container .footer .ftr-social .youtube,
+  #footer-section .container .footer .ftr-social .mesanger,
+  #footer-section .container .footer .ftr-social .instagram,
+  #footer-section .container .footer .ftr-social .twitter {
+    margin-right: 12px;
+    margin-left: 0;
+  }
+}/*# sourceMappingURL=Footer.css.map */

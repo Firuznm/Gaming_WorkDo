@@ -1,0 +1,104 @@
+#main {
+  height: 70vh;
+  background-color: black;
+  position: relative;
+  color: #fff;
+}
+#main .main-left-img {
+  position: absolute;
+  top: -175px;
+}
+#main .main-info {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 5;
+}
+#main .main-info .main-color-btn {
+  display: inline-block;
+  background-color: #12103e;
+  padding: 10px 15px;
+  color: white;
+  border-radius: 30px;
+}
+#main .main-info .main-color-btn .feature {
+  padding: 4px 10px;
+  color: white;
+  margin-right: 10px;
+  background: linear-gradient(90deg, #0098ff 0%, rgba(0, 152, 255, 0) 100%);
+  border-radius: 20px;
+  font-size: 14px;
+  -webkit-border-radius: 20px;
+}
+#main .main-info .main-color-btn .btn-text {
+  color: #fff;
+}
+#main .main-info .main-color-btn .collector {
+  color: #1c82f3;
+  margin-left: 4px;
+}
+#main .main-info .main-head {
+  margin: 1rem 0;
+  font-size: 3rem;
+  font-weight: 500;
+  line-height: 3rem;
+}
+#main .main-info .main-head .pro-gaming {
+  background: linear-gradient(93.25deg, #0098ff 4.45%, #7b35c8 93.88%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0 15px;
+}
+#main .main-info .main-description {
+  color: #838383;
+  margin: 1rem 0 2rem;
+  width: 40%;
+}
+#main .main-info .main-btn-list {
+  display: flex;
+  gap: 3rem;
+}
+#main .main-right-img {
+  position: absolute;
+  top: -175px;
+  right: 190px;
+}
+
+@media only screen and (max-width: 940px) {
+  #main .main-info {
+    top: 55%;
+  }
+  #main .main-info .main-color-btn {
+    padding: 10px 5px;
+    font-size: 10px;
+  }
+  #main .main-info .main-color-btn .feature {
+    padding: 0 5px;
+    margin-right: 0;
+    font-size: 10px;
+  }
+  #main .main-info .main-color-btn .collector {
+    margin-left: 4px;
+  }
+  #main .main-info .main-head {
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+  }
+  #main .main-info .main-description {
+    width: 100%;
+  }
+  #main .main-info .main-btn-list {
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  #main .main-right-img {
+    right: 0;
+  }
+}
+@media only screen and (max-width: 540px) {
+  #main .main-left-img {
+    display: none;
+  }
+}/*# sourceMappingURL=Main.css.map */

@@ -1,0 +1,54 @@
+.head-comp-cart {
+  height: 370px;
+  width: 300px;
+  padding: 1rem 2rem 1rem 1rem;
+  border: 1px solid #7b35c8;
+  border-bottom-left-radius: 14px;
+  border-top-right-radius: 14px;
+  background: linear-gradient(148deg, rgba(1, 152, 255, 0.18) 0%, rgba(0, 0, 0, 0) 100%);
+}
+.head-comp-cart .hd-com-title {
+  font-size: 2rem;
+  font-weight: 500;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+}
+.head-comp-cart .hd-com-descr {
+  margin: 1rem 0;
+  color: #838383;
+  font-size: 14px;
+}
+.head-comp-cart .selectType {
+  display: block;
+  font-size: 15px;
+  margin-bottom: 0.5rem;
+}
+.head-comp-cart .select {
+  width: 100%;
+  padding: 0.5rem 1rem 0.5rem 0.5rem;
+  border-bottom-left-radius: 14px;
+  border-top-right-radius: 14px;
+  outline: none;
+  color: #838383;
+}
+.head-comp-cart .price-add-cart {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+.head-comp-cart .price-add-cart .price {
+  display: flex;
+  flex-direction: column;
+}
+.head-comp-cart .price-add-cart .price .reg-price {
+  color: black;
+  font-size: 18px;
+  font-weight: 700;
+}
+.head-comp-cart .price-add-cart .price .sale-price {
+  color: #838383;
+  font-size: 14px;
+  text-decoration: line-through;
+}/*# sourceMappingURL=HeadsetComputerCart.css.map */

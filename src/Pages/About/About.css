@@ -1,0 +1,186 @@
+#about {
+  color: #838383;
+}
+#about .container-full {
+  background-color: black;
+  padding: 50px 0;
+}
+#about .container-full .about-head {
+  color: white;
+  width: 83%;
+  margin: auto;
+}
+#about .container-full .about-head .back-home-link {
+  color: white;
+  display: block;
+}
+#about .container-full .about-head .back-home-link .back-icon {
+  margin-right: 20px;
+  padding: 8px 11px;
+  border: 1px solid white;
+  border-radius: 100%;
+}
+#about .container-full .about-head .about-info-head {
+  display: inline-block;
+  margin: 2rem 0;
+  font-size: 2rem;
+  background: linear-gradient(93.25deg, #0098ff 4.45%, #7b35c8 93.88%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#about .container-full .about-head .about-info {
+  width: 65%;
+  font-size: 1.1rem;
+  line-height: 1.6rem;
+}
+#about .Fantasy-Reality-head {
+  font-size: 3rem;
+  line-height: 3rem;
+  font-weight: 700;
+  color: #838383;
+  margin-bottom: 2rem;
+}
+#about .Fantasy-Reality-info {
+  display: flex;
+  justify-content: space-between;
+}
+#about .Fantasy-Reality-info .Fantasy-Reality-info-left,
+#about .Fantasy-Reality-info .Fantasy-Reality-info-right {
+  width: 49%;
+  font-size: 1rem;
+  color: #838383;
+}
+#about .Immersive-head {
+  font-size: 2.2rem;
+  line-height: 3rem;
+  font-weight: 700;
+  color: #838383;
+  margin: 2rem 0;
+  text-align: center;
+}
+#about .Explore {
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+}
+#about .Explore .Explore-info {
+  flex: 1;
+}
+#about .Explore .Explore-info .explore-head {
+  margin: 3rem 0 2rem;
+  font-size: 1.2rem;
+}
+#about .Explore .explore-img {
+  flex: 1;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#about .Dive {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+}
+#about .Dive .dive-img {
+  flex: 1;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#about .Dive .dive-info {
+  flex: 1;
+}
+#about .Dive .dive-info .dive-head {
+  margin: 3rem 0 2rem;
+  font-size: 1.2rem;
+}
+#about .about-services {
+  text-align: center;
+}
+#about .about-services .about-service-head {
+  font-size: 3rem;
+  line-height: 3rem;
+  font-weight: 500;
+  margin: 4rem 0 1.5rem;
+}
+#about .about-services .about-service-info {
+  width: 80%;
+  margin: 0 auto 3rem;
+}
+#about .about-services .about-service-cart {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: center;
+}
+#about .about-services .about-service-cart .about-cart {
+  border: 1px solid #0098ff;
+  padding: 1.5rem 0.6rem;
+  text-align: start;
+}
+#about .about-services .about-service-cart .about-cart .cart-head-icon {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+#about .about-services .about-service-cart .about-cart .cart-head-icon h4 {
+  font-size: 1.5rem;
+}
+#about .about-services .about-service-cart .about-cart .cart-head-icon .about-cart-icon {
+  width: 20px;
+  height: 20px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media only screen and (max-width: 1100px) {
+  #about .container-full {
+    padding: 0 0 50px 0;
+  }
+  #about .about-info {
+    width: 100% !important;
+  }
+  #about .Fantasy-Reality-head {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+  }
+  #about .Fantasy-Reality-info {
+    justify-content: inherit;
+    flex-direction: column;
+  }
+  #about .Fantasy-Reality-info .Fantasy-Reality-info-left,
+  #about .Fantasy-Reality-info .Fantasy-Reality-info-right {
+    width: 100%;
+  }
+  #about .Immersive-head {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+    text-align: start;
+  }
+  #about .Explore {
+    justify-content: inherit;
+    flex-direction: column;
+  }
+  #about .Explore .Explore-info .explore-head {
+    margin: 0rem 0 2rem;
+  }
+  #about .Dive {
+    justify-content: inherit;
+    flex-direction: column-reverse;
+  }
+  #about .Dive .dive-info .dive-head {
+    margin: 0rem 0 2rem;
+  }
+  #about .about-services {
+    text-align: center;
+  }
+  #about .about-services .about-service-head {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+  }
+  #about .about-services .about-service-info {
+    width: 100%;
+  }
+}/*# sourceMappingURL=About.css.map */

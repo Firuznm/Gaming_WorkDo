@@ -1,0 +1,505 @@
+#header-main {
+  background-color: black;
+  color: #fff;
+  height: 11rem;
+}
+#header-main .header {
+  position: relative;
+}
+#header-main .header .nav {
+  position: fixed;
+  left: 0;
+  right: 0;
+  background-color: transparent;
+  top: 0;
+  z-index: 9999;
+  transform: 1s;
+}
+#header-main .header .nav .nav-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+}
+#header-main .header .nav .nav-top .pages-list .drp-menu-list-name {
+  font-weight: 600;
+  margin-bottom: 7px;
+  display: inline-block;
+}
+#header-main .header .nav .nav-top .pages-list li {
+  margin: 10px 0;
+}
+#header-main .header .nav .nav-top .pages-list .gaming-accessories {
+  margin-right: 1.5rem;
+  padding: 27px 0;
+  display: inline-block;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+#header-main .header .nav .nav-top .pages-list .gaming-accessories .drp-menu {
+  position: absolute;
+  top: 74px;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  transition: 300ms ease;
+  transform-origin: top;
+  transform: scaleY(0);
+}
+#header-main .header .nav .nav-top .pages-list .gaming-accessories .drp-menu .drop-down-gaming-accessories {
+  display: flex;
+  justify-content: space-between;
+  color: black;
+  padding: 1rem 0;
+}
+#header-main .header .nav .nav-top .pages-list .gaming-accessories:hover .drp-menu {
+  transform: scaleY(1);
+}
+#header-main .header .nav .nav-top .pages-list .gaming-accessories:hover .gaming-rotate-icon {
+  transform: rotate(-180deg);
+}
+#header-main .header .nav .nav-top .pages-list .pages {
+  margin-right: 1.5rem;
+  position: relative;
+  cursor: pointer;
+  padding: 27px 0;
+}
+#header-main .header .nav .nav-top .pages-list .pages .drp-menu {
+  position: absolute;
+  top: 74px;
+  left: 0;
+  width: 200px;
+  background-color: #fff;
+  transition: 300ms ease;
+  transform-origin: top;
+  transform: scaleY(0);
+}
+#header-main .header .nav .nav-top .pages-list .pages .drp-menu .drop-down-pages {
+  color: black;
+  padding: 1rem;
+}
+#header-main .header .nav .nav-top .pages-list .pages:hover .drp-menu {
+  transform: scaleY(1);
+}
+#header-main .header .nav .nav-top .pages-list .blog {
+  margin-right: 1.5rem;
+  position: relative;
+  padding: 27px 0;
+  cursor: pointer;
+}
+#header-main .header .nav .nav-top .pages-list .blog .drp-menu {
+  position: absolute;
+  top: 74px;
+  left: 0;
+  width: 200px;
+  background-color: #fff;
+  transition: 300ms ease;
+  transform-origin: top;
+  transform: scaleY(0);
+}
+#header-main .header .nav .nav-top .pages-list .blog .drp-menu .drop-down-blog {
+  color: black;
+  padding: 1rem;
+}
+#header-main .header .nav .nav-top .pages-list .blog:hover .drp-menu {
+  transform: scaleY(1);
+}
+#header-main .header .nav .nav-top .pages-list .dr-menu-img {
+  width: 300px;
+  height: 160px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#header-main .header .nav .nav-top .gaming {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #fff;
+  position: relative;
+}
+#header-main .header .nav .nav-top .gaming .point {
+  font-size: 15px;
+  color: blueviolet;
+  top: 24px;
+  position: absolute;
+}
+#header-main .header .nav .nav-top .login-basket {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#header-main .header .nav .nav-top .login-basket .login {
+  margin-left: 1.5rem;
+  position: relative;
+  padding: 27px 0;
+  cursor: pointer;
+}
+#header-main .header .nav .nav-top .login-basket .login .drp-menu {
+  position: absolute;
+  top: 74px;
+  right: 0;
+  width: 200px;
+  background-color: #fff;
+  transition: 300ms ease;
+  transform-origin: top;
+  transform: scaleY(0);
+}
+#header-main .header .nav .nav-top .login-basket .login .drp-menu .drop-down-login {
+  color: black;
+  padding: 1rem;
+}
+#header-main .header .nav .nav-top .login-basket .login:hover .drp-menu {
+  transform: scaleY(1);
+}
+#header-main .header .nav .nav-top .login-basket .login .login-icon {
+  font-size: 1.5rem;
+}
+#header-main .header .nav .nav-top .login-basket .lang {
+  margin-left: 1.5rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+#header-main .header .nav .nav-top .login-basket .btn-price {
+  margin-left: 1.5rem;
+  border: 1px solid #fff;
+  padding: 5px 15px;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+#header-main .header .nav .nav-top .login-basket .btn-basket {
+  position: relative;
+  margin-left: 1.5rem;
+  background-color: transparent;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  cursor: pointer;
+}
+#header-main .header .nav .nav-top .login-basket .btn-basket .price {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#header-main .header .nav .nav-top .login-basket .btn-basket .basket-icon {
+  font-size: 1.5rem;
+}
+#header-main .header .nav .nav-top .login-basket .btn-basket .pr-count {
+  position: absolute;
+  top: -18px;
+  left: 65px;
+  width: 30px;
+  height: 29px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  background: linear-gradient(93.25deg, #0098ff 4.45%, #7b35c8 93.88%);
+  color: #fff;
+}
+#header-main .header .nav .nav-top .login-basket .hamburger-menu {
+  display: none;
+  margin-left: 1rem;
+  font-size: 1.5rem;
+}
+#header-main .header .nav .nav-line {
+  width: 100%;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.15);
+  border: none;
+}
+#header-main .header .nav .nav-bottom {
+  height: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 40px;
+  transition: 1s;
+}
+#header-main .header .nav .nav-bottom .new-accessories {
+  color: #fff;
+  font-weight: 700;
+}
+#header-main .header .nav .nav-bottom .new-accessories a {
+  text-decoration: underline;
+}
+#header-main .header .nav .nav-bottom .search {
+  border: 1px solid #fff;
+  padding: 0.7rem 1rem;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+#header-main .header .nav .nav-bottom .search .search-inp {
+  border: none;
+  padding: 0 7rem 0 1rem;
+  outline: none;
+  background-color: transparent;
+  color: #fff;
+}
+#header-main .header .nav .nav-bottom .new-collections {
+  text-decoration: underline;
+}
+#header-main .header .nav .bascet-menu {
+  position: absolute;
+  right: -500px;
+  top: 5px;
+  height: 100vh;
+  width: 500px;
+  background-color: white;
+  color: #838383;
+  transition: all 0.5s;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#header-main .header .nav .bascet-menu .bascet-header {
+  height: 3rem;
+  width: 500px;
+  background-color: #1c82f3;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  position: fixed;
+  z-index: 99;
+  font-weight: 700;
+}
+#header-main .header .nav .bascet-menu .bascet-product-list {
+  margin-top: 2rem;
+}
+#header-main .header .nav .bascet-menu .bascet-product-list .bascet-product {
+  width: 400px;
+  height: 160px;
+  padding: 2rem;
+  border: 1px solid #838383;
+  margin: 2rem auto;
+  display: flex;
+  -moz-column-gap: 1.5rem;
+       column-gap: 1.5rem;
+}
+#header-main .header .nav .bascet-menu .bascet-product-list .bascet-product .bascet-pr-img {
+  width: 100px;
+  height: 100px;
+}
+#header-main .header .nav .bascet-menu .bascet-product-list .bascet-product .bascet-pr-datas {
+  margin-top: -20px;
+}
+#header-main .header .nav .bascet-menu .bascet-product-list .bascet-product .bascet-pr-datas .bascet-pr-title {
+  font-size: 1rem;
+  font-weight: 300;
+  color: black;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+}
+#header-main .header .nav .bascet-menu .bascet-product-list .bascet-product .bascet-pr-datas .bascet-pr-type {
+  display: inline-block;
+  margin: 1rem 0 10px;
+}
+#header-main .header .nav .bascet-menu .bascet-product-list .bascet-product .bascet-pr-datas .art-azal {
+  border: 1px solid;
+  width: 7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#header-main .header .nav .bascet-menu .bascet-product-list .bascet-product .bascet-pr-datas .art-azal .art,
+#header-main .header .nav .bascet-menu .bascet-product-list .bascet-product .bascet-pr-datas .art-azal .azal {
+  padding: 0px 16px;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+}
+#header-main .header .nav .bascet-menu .bascet-product-list .bascet-product .bascet-pr-datas .art-azal .pr-count {
+  font-size: 1.5rem;
+  margin: 0 5px;
+}
+#header-main .header .nav .bascet-menu .bascet-product-list .bascet-product .bascet-pr-datas .bascet-pr-price-delete {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+#header-main .header .nav .bascet-menu .bascet-product-list .bascet-product .bascet-pr-datas .bascet-pr-price-delete .delete-icon {
+  display: inline-block;
+  margin-top: 5px;
+  cursor: pointer;
+}
+#header-main .header .nav .bascet-menu .basket-bottom {
+  background-color: white;
+  color: black;
+  position: sticky;
+  bottom: 0;
+  border-top: 1px solid black;
+  padding: 1rem;
+  text-align: center;
+  z-index: 99;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+#header-main .header .nav .bascet-menu .basket-bottom .suptotal-price {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+#header-main .header .nav .bascet-menu .basket-bottom .view-cart {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin: 15px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+#header-main .header .nav .bascet-menu .basket-bottom .view-cart .view-cart-arrow-icon {
+  font-size: 2rem;
+  margin-left: 15px;
+}
+#header-main .header .nav .show-menu {
+  right: 0;
+}
+#header-main .header .nav .open {
+  position: absolute;
+  top: 5px;
+  right: 505px;
+  width: 55px;
+  height: 3rem;
+  background-color: #1c82f3;
+  border: none;
+  cursor: pointer;
+  transition: all 1s;
+  opacity: 1;
+  display: block;
+}
+#header-main .header .nav .open .close-icon {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: white;
+}
+#header-main .header .nav .hiden {
+  opacity: 0;
+  display: none;
+}
+
+.noActiveMenu .nav {
+  background-color: black !important;
+}
+.noActiveMenu .nav-bottom {
+  display: none !important;
+}
+.noActiveMenu .nav-line {
+  display: none;
+}
+
+@media only screen and (max-width: 940px) {
+  #header-main .header .nav .nav-top .pages-list {
+    display: none;
+  }
+  #header-main .header .nav .nav-top .gaming {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  #header-main .header .nav .nav-top .gaming .point {
+    top: 9px;
+  }
+  #header-main .header .nav .nav-top .login-basket .login {
+    margin-left: 1rem;
+  }
+  #header-main .header .nav .nav-top .login-basket .login .login-icon {
+    font-size: 1rem;
+  }
+  #header-main .header .nav .nav-top .login-basket .lang {
+    margin-left: 1rem;
+    font-size: 1rem;
+  }
+  #header-main .header .nav .nav-top .login-basket .btn-price {
+    display: none;
+  }
+  #header-main .header .nav .nav-top .login-basket .btn-basket {
+    margin-left: 1rem;
+  }
+  #header-main .header .nav .nav-top .login-basket .btn-basket .basket-icon {
+    font-size: 1.5rem;
+  }
+  #header-main .header .nav .nav-top .login-basket .hamburger-menu {
+    display: block;
+  }
+  #header-main .header .nav .nav-line {
+    width: 100%;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.15);
+    border: none;
+  }
+  #header-main .header .nav .nav-bottom {
+    display: none;
+  }
+  #header-main .main-info {
+    top: 55%;
+  }
+  #header-main .main-info .main-color-btn {
+    padding: 10px 5px;
+    font-size: 10px;
+  }
+  #header-main .main-info .main-color-btn .feature {
+    padding: 0 5px;
+    margin-right: 0;
+    font-size: 10px;
+  }
+  #header-main .main-info .main-color-btn .collector {
+    margin-left: 4px;
+  }
+  #header-main .main-info .main-head {
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+  }
+  #header-main .main-info .main-description {
+    width: 100%;
+  }
+  #header-main .main-info .main-btn-list {
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  #header-main .main-right-img {
+    right: 0;
+  }
+}
+@media only screen and (max-width: 600px) {
+  #header-main .header .nav .bascet-menu {
+    right: -300px;
+    width: 300px;
+    z-index: 9999999999999;
+  }
+  #header-main .header .nav .bascet-menu .bascet-header {
+    width: 300px;
+    justify-content: space-around;
+  }
+  #header-main .header .nav .bascet-menu .bascet-product-list .bascet-product {
+    width: 290px;
+    height: 160px;
+    padding: 1rem 10px;
+    margin: 1rem auto;
+    -moz-column-gap: 10px;
+         column-gap: 10px;
+  }
+  #header-main .header .nav .bascet-menu .bascet-product-list .bascet-product .bascet-pr-datas {
+    margin-top: -10px;
+  }
+  #header-main .header .nav .show-menu {
+    right: 0;
+  }
+  #header-main .header .nav .open {
+    right: 246px;
+    z-index: 999999999999;
+  }
+  #header-main .header .nav .hiden {
+    opacity: 0;
+    display: none;
+  }
+}/*# sourceMappingURL=Header.css.map */

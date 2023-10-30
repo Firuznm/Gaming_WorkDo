@@ -1,0 +1,95 @@
+#best-pro {
+  background-color: black;
+  color: white;
+  padding-bottom: 7rem;
+}
+#best-pro .best-pro-head {
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+}
+#best-pro .best-pro-head .best-head {
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+}
+#best-pro .best-pro-head .best-info {
+  width: 50%;
+  color: #838383;
+}
+#best-pro .best-pro-head .btn-transparent-component {
+  width: 15%;
+}
+#best-pro .container-full {
+  width: 100%;
+}
+#best-pro .container-full .best-pro-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  -moz-column-gap: 2.5rem;
+       column-gap: 2.5rem;
+}
+#best-pro .container-full .best-pro-main img {
+  width: 100%;
+  height: 100%;
+}
+#best-pro .container-full .best-pro-main .left-img {
+  flex: 2;
+}
+#best-pro .container-full .best-pro-main .right-img {
+  flex: 1;
+}
+
+@media only screen and (max-width: 1200px) {
+  #best-pro .best-pro-head {
+    gap: 1rem;
+  }
+  #best-pro .best-pro-head .best-info {
+    display: none;
+  }
+  #best-pro .container-full {
+    width: 95%;
+  }
+  #best-pro .container-full .best-pro-main {
+    -moz-column-gap: 1rem;
+         column-gap: 1rem;
+  }
+  #best-pro .container-full .best-pro-main .left-img {
+    height: 440px;
+  }
+  #best-pro .container-full .best-pro-main .right-img {
+    display: none;
+  }
+}
+@media only screen and (max-width: 720px) {
+  #best-pro {
+    padding-bottom: 2rem;
+  }
+  #best-pro .best-pro-head {
+    flex-direction: column;
+    justify-content: inherit;
+    gap: 2rem;
+  }
+  #best-pro .best-pro-head .best-head {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+  }
+  #best-pro .best-pro-head .btn-transparent-component {
+    width: 80%;
+  }
+  #best-pro .container-full {
+    width: 95%;
+    margin: auto;
+  }
+  #best-pro .container-full .best-pro-main {
+    flex-direction: column;
+    justify-content: inherit;
+    -moz-column-gap: 0;
+         column-gap: 0;
+    row-gap: 2.5rem;
+  }
+  #best-pro .container-full .best-pro-main .left-img {
+    flex: 0;
+    height: 340px;
+  }
+}/*# sourceMappingURL=BestProGaming.css.map */

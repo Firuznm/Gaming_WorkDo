@@ -1,0 +1,86 @@
+#GamingProducts{
+	.container{
+		.GamingProducts-head{
+			display: flex;
+			justify-content: space-between;
+			margin-bottom: 2rem; 
+			.gamingPro-title{
+             font-size: 2rem;
+			 font-weight: 900;
+			}
+			.gamingPro-info{
+				width: 40%;
+				color: #838383;
+			}
+			.game-btn{
+				text-align: end;
+			}
+
+		}
+		.gamingPro-slider{
+			width: 102%;
+			margin: auto;
+			// .gaming-pr-wrapper{
+				// max-width: 95% !important;
+				// margin: 0 auto;
+			.slick-arrow{
+				background-color: #0098ff;
+				width: 40px;
+				height: 40px;
+				border-radius: 100%;
+				z-index: 5;
+			}
+		
+			.slick-prev{
+				left: -15px;
+			}
+			.slick-next{
+				right: 3px;
+			}
+		// }
+	}
+	}
+}
+
+	//GamingProducts responsive start
+	@media only screen and (max-width: 950px) {
+		#GamingProducts{
+			.container{
+				.GamingProducts-head{
+					display: flex;
+					flex-direction: column;
+					justify-content: inherit;
+					.gamingPro-title{
+					 font-size: 2rem;
+					 font-weight: 900;
+					 margin-bottom: 1rem;
+					}
+					.gamingPro-info{
+					display: none;
+					}
+					.game-btn{
+						text-align: start;
+					}
+		
+				}
+				// .gamingPro-slider{
+				// 	width: 102%;
+				// 	margin: auto;
+				// 	.slick-arrow{
+				// 		background-color: #0098ff;
+				// 		width: 40px;
+				// 		height: 40px;
+				// 		border-radius: 100%;
+				// 		z-index: 5;
+				// 	}
+				
+				// 	.slick-prev{
+				// 		left: -15px;
+				// 	}
+				// 	.slick-next{
+				// 		right: 3px;
+				// 	}
+				// }
+			}
+		}
+	}

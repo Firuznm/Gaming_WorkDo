@@ -1,0 +1,54 @@
+ 
+
+#BestsellersWeek{
+	padding-bottom: 2rem;
+	background-color: black;
+	color: white;
+	.container{
+		padding-bottom: 0;
+	  .bs-Week-head{
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 3rem;
+		.bs-Week-title{
+			font-size: 3rem;
+			font-weight: 700;
+		}
+	  }	
+	}
+      .bs-week-slider{
+		width: 100%;
+           .swiper{
+			 height: 500px;
+			 .swiper-pagination-bullet{
+			  padding: 0px 20px;
+			  height: 2px;
+			  background: #d3d1d1;
+			  border-radius: inherit;
+			 } 
+			 .swiper-pagination-bullet-active{
+				background: linear-gradient(93.25deg,#0098ff 4.45%,#7b35c8 93.88%);
+			 }
+		   }
+	
+	  }
+
+}
+
+// BestsellersWeek section responsive start
+@media only screen and (max-width: 980px) {
+	#BestsellersWeek{
+		.container{
+		  .bs-Week-head{
+			justify-content: inherit;
+			flex-direction: column;
+			position: relative;
+			margin-top: 3rem;
+			.bs-Week-title{
+				font-size: 2rem;
+				margin-bottom: 2rem;
+			}
+		  }	
+		}
+	}
+}

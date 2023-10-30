@@ -1,0 +1,16 @@
+.mini-btn{
+   display: inline-block;
+	color: white;
+	background: linear-gradient(93.25deg,#0098ff 4.45%,#7b35c8 93.88%);
+   padding: .9rem 2.5rem;
+   border: 1px solid transparent;
+   border-top-right-radius: 14px;
+   border-bottom-left-radius: 14px;
+   cursor: pointer;
+   transition: .7s ease;
+   &:hover{
+	color: #838383;
+	border: 1px solid #838383;
+	background: transparent;
+   }   
+}

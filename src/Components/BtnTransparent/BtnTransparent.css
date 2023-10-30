@@ -1,0 +1,16 @@
+.btn-transparent {
+  display: inline-block;
+  padding: 0.9rem 2rem;
+  border: none;
+  border-top-right-radius: 14px;
+  border-bottom-left-radius: 14px;
+  cursor: pointer;
+  color: #838383;
+  border: 1px solid #838383;
+  background: transparent;
+  transition: 0.7s ease;
+}
+.btn-transparent:hover {
+  color: white;
+  background: linear-gradient(93.25deg, #0098ff 4.45%, #7b35c8 93.88%);
+}/*# sourceMappingURL=BtnTransparent.css.map */

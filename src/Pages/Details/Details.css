@@ -1,0 +1,51 @@
+#Details-section {
+  height: 100vh;
+  background-color: black;
+  color: white;
+}
+#Details-section .onClick-pr-data {
+  display: flex;
+  justify-content: space-between;
+}
+#Details-section .onClick-pr-data .onClick-pr-info .onClick-pr-head {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+#Details-section .onClick-pr-data .onClick-pr-info .product-type {
+  font-size: 1rem;
+  color: #838383;
+  margin: 1rem 0;
+}
+#Details-section .onClick-pr-data .onClick-pr-info .product-description {
+  font-size: 1.1rem;
+  color: #838383;
+}
+#Details-section .onClick-pr-data .onClick-pr-info .product-price {
+  display: block;
+  margin: 1rem 0 0.5rem 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+#Details-section .onClick-pr-data .onClick-pr-info .product-sale {
+  margin: 1rem 0 1rem 0;
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: line-through;
+}
+#Details-section .onClick-pr-data .onClick-pr-info .product-add-buy {
+  margin-top: 2rem;
+  display: flex;
+  -moz-column-gap: 2rem;
+       column-gap: 2rem;
+}
+#Details-section .onClick-pr-data .onClick-pr-img {
+  padding: 2rem;
+  border-radius: 0 12px;
+  border: 1px solid #0098ff;
+}
+#Details-section .onClick-pr-data .onClick-pr-img img {
+  width: 300px;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=Details.css.map */

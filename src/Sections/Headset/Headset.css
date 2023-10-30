@@ -1,0 +1,46 @@
+#headset .container {
+  width: 100%;
+}
+#headset .container .headset-cart {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  -moz-column-gap: 2.5rem;
+       column-gap: 2.5rem;
+}
+#headset .container .headset-cart img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#headset .container .headset-cart .left-img {
+  flex: 2;
+}
+#headset .container .headset-cart .right-img {
+  flex: 1;
+}
+
+@media only screen and (max-width: 1260px) {
+  #headset .container {
+    width: 95%;
+  }
+  #headset .container .headset-cart {
+    height: auto;
+  }
+  #headset .container .headset-cart .right-img {
+    display: none;
+  }
+}
+@media only screen and (max-width: 980px) {
+  #headset .container .headset-cart {
+    flex-direction: column;
+    align-items: center;
+    -moz-column-gap: 0;
+         column-gap: 0;
+    row-gap: 3rem;
+  }
+  #headset .container .headset-cart .right-img {
+    display: none;
+  }
+}/*# sourceMappingURL=Headset.css.map */

@@ -1,0 +1,172 @@
+
+
+#Testimonials{
+	.container{
+	  .ts-header-info{
+		display:flex ;
+		justify-content: space-between;
+		margin-bottom: 2rem;
+		.ts-head{
+             font-size: 2rem;
+		    }
+		.ts-info{
+			width: 40%;
+		}
+	  }	
+		.ts-slick-slider{
+		// padding: 1rem;
+		// margin: 0 1rem;
+			.ts-slider{
+				display: flex !important;
+				background:linear-gradient(148deg,rgba(1,152,255,.18) 0%,rgba(0,0,0,0) 100%);
+				border: 1px solid #7b35c8;
+				padding: 1rem 2rem 1rem 1rem;
+				border-top-right-radius: 14px;
+				border-bottom-left-radius: 14px;
+				margin: 0 1rem;
+			.ts-img{
+				width: 150px;
+				height: 150px;
+			}
+			.ts-product-description{
+				 .ts-title{   
+					font-size: 1.4rem;
+					font-weight: 700;
+				}
+				 .ts-description{
+					display: -webkit-box;
+					-webkit-box-orient: vertical;
+					-webkit-line-clamp: 2;
+					overflow: hidden;
+					margin: 1.2rem 0;
+					font-size: 14px;
+				 }
+				 .client-datas{
+					display: flex;
+					justify-content: space-between;
+					.client{
+						display: flex;
+						.client-name{
+							margin-left: 15px;
+							line-height: 15px;
+							.name{
+								font-size: 1.1rem;
+								font-weight: 600;
+							}
+							.client{
+								font-size: 12px;
+							}
+						}
+						
+					}
+					.star{
+						display: flex;
+						justify-content: center;
+						align-items: center;
+					 .str-img{
+						margin-right: 10px;
+					 }
+					}
+				 }
+			}
+		}
+	}
+	.slick-arrow{
+		background-color: #0098ff;
+		width: 40px;
+		height: 40px;
+		border-radius: 100%;
+		z-index: 5;
+	}
+
+	.slick-prev{
+		left: 7px;
+	}
+	.slick-next{
+		right: 7px;
+	}
+	 }	
+	}
+
+		// Testimonialssection responsive start
+@media only screen and (max-width: 950px) {
+	#Testimonials{
+		.container{
+			.ts-info{
+				display: none;
+			}}}}
+			
+	// Testimonialssection responsive start
+@media only screen and (max-width: 550px) {
+	#Testimonials{
+		.container{
+			.ts-info{
+				display: none;
+			}
+			.ts-slick-slider{
+			// padding: 1rem;
+			// margin: 0 1rem;
+				.ts-slider{
+					text-align: center;
+					flex-direction: column;
+					 padding:1rem 0;
+					// margin: 0 1rem;
+				.ts-img{
+					margin: 0 auto;
+					display: block;
+				}
+				.ts-product-description{
+					 .ts-title{   
+						font-size: 1.4rem;
+						font-weight: 700;
+					}
+					 .ts-description{
+						display: -webkit-box;
+						-webkit-box-orient: vertical;
+						-webkit-line-clamp: 3;
+						overflow: hidden;
+						margin: 1.2rem 0;
+						font-size: 14px;
+					 }
+					 .client-datas{
+						justify-content: inherit;
+						flex-direction: column;
+						align-items: center;
+						.client{
+							.client-name{
+								.name{
+									font-size: 1.1rem;
+									font-weight: 600;
+								}
+								.client{
+									font-size: 12px;
+								}
+							}
+							
+						}
+						.star{
+							display: flex;
+							justify-content: center;
+							align-items: center;
+						     margin-top: 1rem;
+						}
+					 }
+				}
+			}
+		}
+		.slick-arrow{
+			background-color: #0098ff;
+			width: 40px;
+			height: 40px;
+			border-radius: 100%;
+		}
+	
+		.slick-prev{
+			left: 7px;
+		}
+		.slick-next{
+			right: 7px;
+		}
+		 }	
+		}
+}
